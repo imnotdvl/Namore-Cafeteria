@@ -155,5 +155,53 @@ body{
 i{
     color: #4d2109;
     z-index: 1;
-    font-size: 30px;
+    font-size: 35px;
+}
+
+#divisoria-horizontal{
+    display: flex;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: -10px 0;
+}
+
+.divider::before,
+.divider::after{
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #b89b72;
+}
+
+.divider span{
+    color: #b89b72;
+    font-size: 18px;
+}
+
+/*---*/
+
+.divider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: -10px 0;
+}
+
+.divider22::before,
+.divider2::after{
+    content: "";
+    width: 2px;
+    height: 200px;
+    background-color: #bda5848a;
+}
+
+.divider2 span{
+    color: #b89b72;
+    font-size: 18px;
 }
