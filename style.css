@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*TAGS*/
+body{
+    background-color: rgb(171, 113, 66);
+}
+
+header{
+    background-color: #703601;
+    flex-direction:row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+h4{
+    font-size: 60px;
+    padding-left: 100px;
+    color: #bb722d;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3{
+    font-size: 60px;
+    color: #703601;
+}
+
+#p-descricao-cafe{
+    text-align: start;
+    font-size: 45px;
+    margin: 20px;
+}
+
+#p-descricao-detalhe{
+    text-align: start;
+    font-size: 45px;
+}
+/*ID's*/
+#nome-cafeteria{
+    font-size: 60px;
+    padding-left: 50px ;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+#logo-cafeteria{
+    width: 100px;
+    height: 90px;
+    margin: 20px 80px;
+}
+
+#produtos{
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #612F00;
+
+    border-radius: 8px;
+}
+
+#botao-contato{
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #b0b0b0;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+
+#frase-principal{
+    color: #ffffff;
+    font-size: 80px;
+    font-family:monospace;
+}
+ #frase-secundaria{
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(201, 201, 201);
+ }
+
+ #imagem-namore{
+    border-radius: 8px;
+    width: 800px;
+    height: 800px;
+ }
+
+#botao-sobre{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #7a5740;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+
+#imagem-cappuccino{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#card-cafe{
+    border-radius: 10px;
+    background-color: #422000;
+    margin: 30px;
+}
+
+#descricao-produto{
+    color: white;
+}
+
+#preco-produto{
+    color: white;
+}
+/*CLASSES*/
+.frases{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logo-nome{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre{
+    background-color: rgb(240, 210, 176) ;
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+}
+.descricao{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.card-produtos{
+    background-color: #966026;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*HOVERS*/
+#produtos:hover{
+    background-color: #874000;
+}
+
+#botao-contato:hover{
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+
